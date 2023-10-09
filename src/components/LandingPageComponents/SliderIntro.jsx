@@ -46,7 +46,7 @@ const SliderIntro = () => {
         {workFlow.map(({ title, text, icon, color }) => (
           <article
             key={title}
-            className="w-[100%] h-[260px]   shadow-lg  !border-0 shadow-gray-250 rounded-lg hover:shadow-gray-300 "
+            className="w-[100%] h-[270px]   shadow-lg  !border-0 shadow-gray-250 rounded-lg hover:shadow-gray-300 "
           >
             <div
               className="p-4 rounded-t-lg   h-[40px]"
@@ -59,7 +59,7 @@ const SliderIntro = () => {
                 {icon}
               </div>
             </div>
-            <div className="px-[1rem] py-[2rem] flex flex-col !gap-y-[1rem]">
+            <div className="text-sm md:text-base px-[1rem] py-[2rem] flex flex-col !gap-y-[1rem]">
               <h5>{title}</h5>
               <p>{text}</p>
             </div>

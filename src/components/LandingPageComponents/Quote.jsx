@@ -26,7 +26,7 @@ const Quote = () => {
     ],
   };
   return (
-    <section className="pt-[15rem] px-10 pb-20 md:px-[7rem] flex flex-col gap-y-10 bg-gradient-to-b from-white via-violet-50 to-white">
+    <section className="pt-[20rem] md:pt-[15rem] px-10 pb-20 md:px-[7rem] flex flex-col gap-y-10 bg-gradient-to-b from-white via-violet-50 to-white">
       <header>
         <h4 className="mb-4 text-lg  md:text-xl ">What our customers say</h4>
       </header>
@@ -40,22 +40,22 @@ const Quote = () => {
             className="!grid grid-cols-1 lg:grid-cols-[2fr_1fr] h-full "
           >
             <div
-              className="px-10 pt-10  pb-5 lg:pb-20 flex flex-col gap-y-20 bg-no-repeat"
+              className="px-5 md:px-10 pt-10  pb-5 lg:pb-20 flex flex-col gap-y-20 bg-no-repeat"
               style={{
                 backgroundImage: `url(${quote})`,
               }}
             >
-              <blockquote className="text-xl md:text-2xl md:leading-loose">
+              <blockquote className=" md:text-2xl md:leading-loose">
                 {review}
               </blockquote>
 
               <div>
-                <div className="w-[200px] !h-[1px] bg-gray-500 mb-4" />
-                <h3>{user}</h3>
-                <p>{position}</p>
+                <div className=" w-[200px] !h-[1px] bg-gray-500 mb-4" />
+                <h3 className="  md:text-2xl">{user}</h3>
+                <p className="  md:text-2xl">{position}</p>
               </div>
             </div>
-            <div className="p-10 self-stretch text-xl tracking-wide font-semibold leading-loose text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-b-lg lg:text-2xl  lg:tracking-wide lg:leading-loose lg:rounded-l-none lg:rounded-r-lg">
+            <div className="p-5 md:p-10 self-stretch md:text-2xl tracking-wide font-semibold leading-loose text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-b-lg lg:text-2xl  lg:tracking-wide lg:leading-loose lg:rounded-l-none lg:rounded-r-lg">
               {generalText}
             </div>
           </div>

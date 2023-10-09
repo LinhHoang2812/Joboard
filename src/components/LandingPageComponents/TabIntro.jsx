@@ -17,11 +17,11 @@ const TabIntro = () => {
   };
   return (
     <section className="pb-10 px-10 md:px-[7rem] bg-gradient-to-b from-white to-purple-100 ">
-      <h4 className="mb-4 text-lg  md:text-xl ">Joboard 101</h4>
-      <h3 className="mb-4 text-xl font-semibold md:text-3xl">
+      <h4 className="mb-4   md:text-xl ">Joboard 101</h4>
+      <h3 className="mb-4  font-semibold md:text-3xl">
         A productivity Powerhouse
       </h3>
-      <p className="md:w-[50%] text-lg leading-loose">
+      <p className="md:w-[50%] md:text-lg leading-loose">
         Simple, flexible, and powerful. All it takes are boards, lists, and
         cards to get a clear view of job application process.
       </p>

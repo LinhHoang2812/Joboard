@@ -22,12 +22,12 @@ const FeaturesIntro = () => {
           <div className="flex flex-col gap-y-5">
             <div className="flex gap-x-4 ">
               <BiNews className="text-3xl text-purple-300" />
-              <h4 className="text-xl font-medium">
+              <h4 className="md:text-xl font-medium">
                 Catch up with new job postings
               </h4>
             </div>
 
-            <p>
+            <p className="text-sm md:text-base">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
               aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Aperiam, aliquid! Lorem ipsum dolor sit amet consectetur
@@ -39,12 +39,12 @@ const FeaturesIntro = () => {
           <div className="flex flex-col gap-y-5">
             <div className="flex gap-x-4 ">
               <BiCalendar className="text-3xl text-purple-300" />
-              <h4 className="text-xl font-medium">
+              <h4 className="md:text-xl font-medium">
                 Stay on top of job application process{" "}
               </h4>
             </div>
 
-            <p>
+            <p className="text-sm md:text-base">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
               aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Aperiam, aliquid! Lorem ipsum dolor sit amet consectetur

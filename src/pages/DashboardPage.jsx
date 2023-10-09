@@ -45,7 +45,7 @@ const DashboardPage = () => {
   }, []);
 
   return (
-    <div className="py-20 px-10 flex flex-col gap-y-20">
+    <div className="py-20 px-5 md:px-10 flex flex-col gap-y-20">
       <div className="grid grid-col-1 lg:grid-cols-3 gap-x-16 gap-y-10">
         <div className="px-10 py-5 rounded-md bg-white border-b-8 border-b-yellow-400 flex flex-col gap-y-5">
           <div className="flex justify-between items-center ">
@@ -83,8 +83,8 @@ const DashboardPage = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,_2fr)_minmax(0,_1fr)] gap-10 ">
-        <div className="px-5 pt-10 flex flex-col gap-y-10 bg-white rounded-md">
-          <h3 className="text-4xl leading-loose font-medium text-center text-gray-500">
+        <div className="px-1 md:px-5 pt-10 flex flex-col gap-y-10 bg-white rounded-md">
+          <h3 className="text-xl md:text-4xl md:leading-loose font-medium text-center text-gray-500">
             Monthly Applications
           </h3>
           <ResponsiveContainer width="100%" height={400}>
@@ -106,8 +106,8 @@ const DashboardPage = () => {
             </BarChart>
           </ResponsiveContainer>
         </div>
-        <div className="px-5 pt-10 flex flex-col gap-y-10 bg-white rounded-md">
-          <h3 className="text-4xl leading-loose font-medium text-center text-gray-500">
+        <div className="px-1 md:px-5 pt-10 flex flex-col gap-y-10 bg-white rounded-md">
+          <h3 className="text-xl md:text-4xl md:leading-loose font-medium text-center text-gray-500">
             Job Type
           </h3>
           <ResponsiveContainer width="100%">

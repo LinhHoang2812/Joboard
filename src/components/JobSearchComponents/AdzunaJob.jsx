@@ -50,8 +50,8 @@ const AdzunaJob = ({
           </div>
         </div>
 
-        <div className="grid gap-x-1 grid-cols-[1fr_1fr_auto] items-center min-w-[116px] max-w-[120px]">
-          <Link to="https://www.adzuna.it" className="text-sm md:text-base">
+        <div className="grid gap-x-1 grid-cols-[1fr_1fr_auto] items-center min-w-[120px] max-w-[120px]">
+          <Link to="https://www.adzuna.it" className="text-base">
             Jobs
           </Link>
           <span> by</span>
