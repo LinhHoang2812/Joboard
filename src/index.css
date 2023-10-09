@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+.slider-div .slick-track {
+  min-height: 290px !important;
+}
+
+.slider-div .slick-slide > div {
+  margin: 0 1rem !important;
+}
+
+.slick-slider:hover {
+  cursor: pointer !important;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: auto !important;
+  align-self: stretch;
+}
+
+.slick-slide > div {
+  height: 100% !important;
+}
