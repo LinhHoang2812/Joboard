@@ -13,6 +13,7 @@ export const createJob = createAsyncThunk(
       const res = await authFetch.post("/jobs", data);
 
       thunkAPI.dispatch(getJobs());
+       thunkAPI.dispatch(getStats());
 
       return res.data;
     } catch (error) {
@@ -28,6 +29,7 @@ export const editJob = createAsyncThunk(
       const res = await authFetch.patch(`jobs/${id}`, data);
       thunkAPI.dispatch(getJobs());
       thunkAPI.dispatch(getStats());
+      
       return res.data;
     } catch (error) {
       return thunkAPI.rejectWithValue(error.response.data.msg);
